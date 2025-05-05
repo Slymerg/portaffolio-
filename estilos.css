@@ -139,8 +139,6 @@
     padding: 1rem;
     margin-top: 2rem;
   }
-  
-  /* --- Estilos para la sección sobre mí --- */
   .perfil {
       display: flex;
       flex-wrap: wrap;
