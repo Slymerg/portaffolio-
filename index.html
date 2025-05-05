@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Portafolio - Juan Pérez</title>
+
+  <!-- Fuente Poppins desde Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Enlace al archivo de estilos externo -->
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>André Caso</h1>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>¡Hola! Soy André</h2>
+    <p>Estudiante de ingeniería de sistemas e informática de la universidad continental.</p>
+  </section>
+
+  <section id="sobre-mi" class="mostrar">
+    <h2>Sobre mí</h2>
+    <div class="perfil">
+      <img src="img/perfil.jpg" alt="Foto de Juan Pérez" class="foto-perfil" />
+      <div class="descripcion">
+        <p>¡Hola! Soy <strong>André Caso</strong>, estudiante de ingeniería de sistemas e informática de la universidad continental.</p>
+        <p>Actualmente brindo asesoría en tesis, proyectos educativos, y desarrollo de sistemas para pequeñas empresas. Me apasiona crear soluciones funcionales con HTML, CSS, JavaScript, y frameworks modernos.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyecto">
+      <img src="img/proyecto1.png" alt="Captura del Proyecto 1" />
+      <h3>Landing Page de app inventor</h3>
+      <p>Diseño colorido y llamativo, con herramientas que a simple vista pueden parecer innecesarias pero pueden ser de gran utilidad, además de la integración de inteligencia artificial (Marci) que resolverá tus dudas.</p>
+      <a href="#" target="_blank">Ver Demo</a>
+      <a href="#" target="_blank">Código Fuente</a>
+    </div>
+    <div class="proyecto">
+      <img src="img/proyecto2.png" alt="Captura del Proyecto 2" />
+      <h3>Calculadora con JavaScript</h3>
+      <p>Calculadora funcional construida con JavaScript puro.</p>
+      <a href="#" target="_blank">Ver Demo</a>
+      <a href="#" target="_blank">Código Fuente</a>
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul class="habilidades">
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Git y GitHub</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="formulario-contacto">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required />
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 André Caso. Ningún derecho reservado.</p>
+  </footer>
+
+  <!-- Enlace al archivo JS externo -->
+  <script src="script.js"></script>
+</body>
+
+</html>
