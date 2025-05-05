@@ -141,7 +141,7 @@
   }
   
   /* --- Estilos para la sección sobre mí --- */
-  .perfil {
+  .proyecto1 {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
@@ -149,7 +149,7 @@
       margin-top: 1rem;
     }
     
-    .foto-perfil {
+    .foto-proyecto1 {
       width: 180px;
       height: 180px;
       object-fit: cover;
